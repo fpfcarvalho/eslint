@@ -8,7 +8,7 @@ describe('MaxLinesPerFunctionComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MaxLinesPerFunctionComponent ]
+      declarations: [MaxLinesPerFunctionComponent]
     })
     .compileComponents();
 

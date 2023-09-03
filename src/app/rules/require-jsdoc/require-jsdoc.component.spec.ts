@@ -8,7 +8,7 @@ describe('RequireJsdocComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RequireJsdocComponent ]
+      declarations: [RequireJsdocComponent]
     })
     .compileComponents();
 

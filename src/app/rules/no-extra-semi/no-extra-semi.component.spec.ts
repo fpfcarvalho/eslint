@@ -8,7 +8,7 @@ describe('NoExtraSemiComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoExtraSemiComponent ]
+      declarations: [NoExtraSemiComponent]
     })
     .compileComponents();
 

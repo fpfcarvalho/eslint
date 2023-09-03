@@ -8,7 +8,7 @@ describe('CommaDangleComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CommaDangleComponent ]
+      declarations: [CommaDangleComponent]
     })
     .compileComponents();
 

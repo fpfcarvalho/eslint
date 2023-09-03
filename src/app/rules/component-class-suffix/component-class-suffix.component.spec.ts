@@ -8,7 +8,7 @@ describe('ComponentClassSuffixComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ComponentClassSuffixComponent ]
+      declarations: [ComponentClassSuffixComponent]
     })
     .compileComponents();
 

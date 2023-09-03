@@ -8,7 +8,7 @@ describe('NoEmptyLifecycleMethodComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoEmptyLifecycleMethodComponent ]
+      declarations: [NoEmptyLifecycleMethodComponent]
     })
     .compileComponents();
 

@@ -8,7 +8,7 @@ describe('NoConflictingLifecycleComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoConflictingLifecycleComponent ]
+      declarations: [NoConflictingLifecycleComponent]
     })
     .compileComponents();
 

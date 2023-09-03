@@ -8,7 +8,7 @@ describe('NoThrowLiteralComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoThrowLiteralComponent ]
+      declarations: [NoThrowLiteralComponent]
     })
     .compileComponents();
 

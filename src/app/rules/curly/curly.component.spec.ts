@@ -8,7 +8,7 @@ describe('CurlyComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CurlyComponent ]
+      declarations: [CurlyComponent]
     })
     .compileComponents();
 

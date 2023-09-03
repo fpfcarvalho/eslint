@@ -8,7 +8,7 @@ describe('NoIrregularWhitespaceComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoIrregularWhitespaceComponent ]
+      declarations: [NoIrregularWhitespaceComponent]
     })
     .compileComponents();
 

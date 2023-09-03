@@ -8,7 +8,7 @@ describe('NoSparseArraysComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoSparseArraysComponent ]
+      declarations: [NoSparseArraysComponent]
     })
     .compileComponents();
 

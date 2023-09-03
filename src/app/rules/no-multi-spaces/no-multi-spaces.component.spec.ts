@@ -8,7 +8,7 @@ describe('NoMultiSpacesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoMultiSpacesComponent ]
+      declarations: [NoMultiSpacesComponent]
     })
     .compileComponents();
 

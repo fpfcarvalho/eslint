@@ -8,7 +8,7 @@ describe('DefaultCaseLastComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DefaultCaseLastComponent ]
+      declarations: [DefaultCaseLastComponent]
     })
     .compileComponents();
 

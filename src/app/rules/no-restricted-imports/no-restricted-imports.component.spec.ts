@@ -8,7 +8,7 @@ describe('NoRestrictedImportsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoRestrictedImportsComponent ]
+      declarations: [NoRestrictedImportsComponent]
     })
     .compileComponents();
 

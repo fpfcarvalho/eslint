@@ -8,7 +8,7 @@ describe('NoTemplateCurlyInStringComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoTemplateCurlyInStringComponent ]
+      declarations: [NoTemplateCurlyInStringComponent]
     })
     .compileComponents();
 

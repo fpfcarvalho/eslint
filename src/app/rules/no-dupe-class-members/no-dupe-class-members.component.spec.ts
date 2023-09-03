@@ -8,7 +8,7 @@ describe('NoDupeClassMembersComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoDupeClassMembersComponent ]
+      declarations: [NoDupeClassMembersComponent]
     })
     .compileComponents();
 

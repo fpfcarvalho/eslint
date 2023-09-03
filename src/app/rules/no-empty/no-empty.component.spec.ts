@@ -8,7 +8,7 @@ describe('NoEmptyComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoEmptyComponent ]
+      declarations: [NoEmptyComponent]
     })
     .compileComponents();
 

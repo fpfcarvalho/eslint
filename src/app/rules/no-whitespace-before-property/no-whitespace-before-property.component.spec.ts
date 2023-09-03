@@ -8,7 +8,7 @@ describe('NoWhitespaceBeforePropertyComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoWhitespaceBeforePropertyComponent ]
+      declarations: [NoWhitespaceBeforePropertyComponent]
     })
     .compileComponents();
 

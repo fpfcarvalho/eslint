@@ -8,7 +8,7 @@ describe('SemiComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SemiComponent ]
+      declarations: [SemiComponent]
     })
     .compileComponents();
 

@@ -8,7 +8,7 @@ describe('RadixComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RadixComponent ]
+      declarations: [RadixComponent]
     })
     .compileComponents();
 

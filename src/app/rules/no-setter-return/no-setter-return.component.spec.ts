@@ -8,7 +8,7 @@ describe('NoSetterReturnComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoSetterReturnComponent ]
+      declarations: [NoSetterReturnComponent]
     })
     .compileComponents();
 

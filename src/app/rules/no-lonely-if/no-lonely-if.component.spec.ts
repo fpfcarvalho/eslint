@@ -8,7 +8,7 @@ describe('NoLonelyIfComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoLonelyIfComponent ]
+      declarations: [NoLonelyIfComponent]
     })
     .compileComponents();
 

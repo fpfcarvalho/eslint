@@ -8,7 +8,7 @@ describe('NoSelfCompareComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NoSelfCompareComponent ]
+      declarations: [NoSelfCompareComponent]
     })
     .compileComponents();
 

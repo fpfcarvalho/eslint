@@ -8,7 +8,7 @@ describe('CamelcaseComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CamelcaseComponent ]
+      declarations: [CamelcaseComponent]
     })
     .compileComponents();
 

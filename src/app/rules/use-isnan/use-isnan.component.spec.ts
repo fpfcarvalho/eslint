@@ -8,7 +8,7 @@ describe('UseIsnanComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UseIsnanComponent ]
+      declarations: [UseIsnanComponent]
     })
     .compileComponents();
 

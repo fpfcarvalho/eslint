@@ -8,7 +8,7 @@ describe('ValidTypeofComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ValidTypeofComponent ]
+      declarations: [ValidTypeofComponent]
     })
     .compileComponents();
 
