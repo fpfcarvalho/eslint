@@ -8,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class ArrayBracketSpacingComponent implements OnInit {
 
   ngOnInit(): void {
-    const oia1 = [ { 'foo': 'bar' } ];
-    const oia2 = [ {
+    const oia1 = [{ 'foo': 'bar' }];
+    const oia2 = [{
       'foo': 'bar'
-    } ];
-    const aia1 = [ [ 1, 2 ], 2, 3, 4 ];
-    const aia2 = [ [ 1, 2 ], 2, [ 3, 4 ] ];
-    const sv1 = [ 'foo' ];
-    const sv2 = [ 'foo'];
-    const sv3 = ['foo' ];
+    }];
+    const aia1 = [[ 1, 2 ], 2, 3, 4 ];
+    const aia2 = [[ 1, 2 ], 2, [ 3, 4 ]];
+    const sv1 = ['foo'];
+    const sv2 = ['foo'];
+    const sv3 = ['foo'];
   }
 
 }
