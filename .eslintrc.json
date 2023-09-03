@@ -1,0 +1,98 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "projects/**/*"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "extends": [
+//        "eslint:recommended",
+//        "plugin:@typescript-eslint/recommended",
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates"
+      ],
+      "rules": {
+        "array-bracket-spacing": ["error", "always", { "objectsInArrays": false, "arraysInArrays": false, "singleValue": false }]
+//        "@angular-eslint/component-class-suffix": ["error"],
+//        "@angular-eslint/component-selector": ["error", { "prefix": "exo", "style": "kebab-case", "type": "element" }],
+//        "@angular-eslint/directive-class-suffix": ["error"],
+//        "@angular-eslint/directive-selector": ["error", { "prefix": "exo", "style": "camelCase", "type": "attribute" }],
+//        "@angular-eslint/use-lifecycle-interface": "error",
+//        "@angular-eslint/use-pipe-transform-interface": "error",
+//        "@angular-eslint/no-conflicting-lifecycle": "error",
+//        "@angular-eslint/no-empty-lifecycle-method": "error",
+//        "@typescript-eslint/ban-types": ["error", { "types": { "fdescribe": "Don't focus tests", "fit": "Don't focus tests" }}],
+//        "@typescript-eslint/explicit-function-return-type": "error",
+//        "max-len": ["error", 140],
+//        "no-alert": "error",
+//        "no-bitwise": "warn",
+//        "no-console": ["error"],
+//        "no-debugger": "error",
+//        "no-multiple-empty-lines": "error",
+//        "no-multi-spaces": ["error", { "ignoreEOLComments": false }],
+//        "curly": "error",
+//        "object-curly-spacing": ["error", "always"],
+//        "no-restricted-imports": ["error", "rxjs/Rx"],
+//        "no-empty": ["error", { "allowEmptyCatch": true }],
+//        "no-eval": "warn",
+//        "no-throw-literal": "error",
+//        "no-trailing-spaces": "error",
+//        "no-unused-expressions": "error",
+//        "prefer-const": "error",
+//        "radix": "off",
+//        "no-extra-semi": "error",
+//        "semi": ["error", "always"],
+//        "eqeqeq": ["error"],
+//        "no-whitespace-before-property": ["error"],
+//        "no-irregular-whitespace": "error",
+//        "no-dupe-keys": "error",
+//        "no-dupe-args": "error",
+//        "default-case": "error",
+//        "array-callback-return": "error",
+//        "no-compare-neg-zero": "warn",
+//        "getter-return": "error",
+//        "comma-dangle": ["error", "never"],
+//        "camelcase": "error",
+//        "indent": ["error", 2, { "SwitchCase": 1 }],
+//        "no-lonely-if": "error",
+//        "quotes": ["error", "single"],
+//        "require-jsdoc": "error",
+//        "no-empty-function": "error",
+//        "no-unreachable": "error",
+//        "max-lines-per-function": ["warn", { "max": 1500, "skipBlankLines": true, "skipComments": true }],
+//        "max-lines": ["warn", { "max": 10000, "skipBlankLines": true, "skipComments": true }],
+//        "max-statements": ["warn", 300],
+//        "dot-notation": "error",
+//        "default-case-last": "error",
+//        "valid-typeof": "error",
+//        "use-isnan": ["error", { "enforceForSwitchCase": true }],
+//        "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+//        "no-use-before-define": ["error", { "functions": false, "classes": false, "variables": true, "allowNamedExports": false }],
+//        "no-unsafe-optional-chaining": "error",
+//        "no-unreachable-loop": "error",
+//        "no-template-curly-in-string": "error",
+//        "no-sparse-arrays": "error",
+//        "no-setter-return": "error",
+//        "no-self-compare": "error",
+//        "no-self-assign": "error",
+//        "no-const-assign": "error",
+//        "no-dupe-else-if": "error",
+//        "no-duplicate-case": "error",
+//        "no-duplicate-imports": "error",
+//        "no-dupe-class-members": "error"
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/template/recommended"
+      ],
+      "rules": {}
+    }
+  ]
+}
