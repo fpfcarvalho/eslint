@@ -15,7 +15,8 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
-        "array-bracket-spacing": ["error", "always", { "objectsInArrays": false, "arraysInArrays": false, "singleValue": false }]
+        "array-bracket-spacing": ["error", "always", { "objectsInArrays": false, "arraysInArrays": false, "singleValue": false }],
+//        "array-callback-return": "error"
 //        "@angular-eslint/component-class-suffix": ["error"],
 //        "@angular-eslint/component-selector": ["error", { "prefix": "exo", "style": "kebab-case", "type": "element" }],
 //        "@angular-eslint/directive-class-suffix": ["error"],
@@ -51,7 +52,6 @@
 //        "no-dupe-keys": "error",
 //        "no-dupe-args": "error",
 //        "default-case": "error",
-//        "array-callback-return": "error",
 //        "no-compare-neg-zero": "warn",
 //        "getter-return": "error",
 //        "comma-dangle": ["error", "never"],
