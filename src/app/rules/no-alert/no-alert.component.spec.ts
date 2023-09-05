@@ -8,7 +8,7 @@ describe('NoAlertComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoAlertComponent]
+      declarations: [NoAlertComponent],
     })
     .compileComponents();
 

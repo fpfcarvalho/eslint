@@ -8,7 +8,7 @@ describe('ExplicitFunctionReturnTypeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ExplicitFunctionReturnTypeComponent]
+      declarations: [ExplicitFunctionReturnTypeComponent],
     })
     .compileComponents();
 

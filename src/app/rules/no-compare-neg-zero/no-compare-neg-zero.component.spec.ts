@@ -8,7 +8,7 @@ describe('NoCompareNegZeroComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoCompareNegZeroComponent]
+      declarations: [NoCompareNegZeroComponent],
     })
     .compileComponents();
 

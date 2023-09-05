@@ -8,7 +8,7 @@ describe('MaxStatementsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [MaxStatementsComponent]
+      declarations: [MaxStatementsComponent],
     })
     .compileComponents();
 

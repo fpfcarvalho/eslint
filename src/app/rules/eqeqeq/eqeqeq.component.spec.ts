@@ -8,7 +8,7 @@ describe('EqeqeqComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [EqeqeqComponent]
+      declarations: [EqeqeqComponent],
     })
     .compileComponents();
 

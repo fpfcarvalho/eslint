@@ -8,7 +8,7 @@ describe('IndentComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [IndentComponent]
+      declarations: [IndentComponent],
     })
     .compileComponents();
 

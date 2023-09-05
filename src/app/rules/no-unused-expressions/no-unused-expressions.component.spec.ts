@@ -8,7 +8,7 @@ describe('NoUnusedExpressionsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoUnusedExpressionsComponent]
+      declarations: [NoUnusedExpressionsComponent],
     })
     .compileComponents();
 

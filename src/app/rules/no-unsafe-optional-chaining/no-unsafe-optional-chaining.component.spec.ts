@@ -8,7 +8,7 @@ describe('NoUnsafeOptionalChainingComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoUnsafeOptionalChainingComponent]
+      declarations: [NoUnsafeOptionalChainingComponent],
     })
     .compileComponents();
 

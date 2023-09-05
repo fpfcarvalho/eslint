@@ -8,7 +8,7 @@ describe('DirectiveClassSuffixComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DirectiveClassSuffixComponent]
+      declarations: [DirectiveClassSuffixComponent],
     })
     .compileComponents();
 

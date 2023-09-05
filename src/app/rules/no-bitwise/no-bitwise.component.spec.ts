@@ -8,7 +8,7 @@ describe('NoBitwiseComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoBitwiseComponent]
+      declarations: [NoBitwiseComponent],
     })
     .compileComponents();
 

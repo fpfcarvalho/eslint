@@ -8,7 +8,7 @@ describe('ArrayBracketSpacingComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ArrayBracketSpacingComponent]
+      declarations: [ArrayBracketSpacingComponent],
     })
     .compileComponents();
 

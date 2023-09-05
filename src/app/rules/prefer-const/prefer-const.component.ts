@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-prefer-const',
   templateUrl: './prefer-const.component.html',
-  styleUrls: ['./prefer-const.component.scss']
+  styleUrls: ['./prefer-const.component.scss'],
 })
 export class PreferConstComponent implements OnInit {
 

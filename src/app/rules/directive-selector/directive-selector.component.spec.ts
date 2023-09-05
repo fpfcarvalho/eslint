@@ -8,7 +8,7 @@ describe('DirectiveSelectorComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DirectiveSelectorComponent]
+      declarations: [DirectiveSelectorComponent],
     })
     .compileComponents();
 

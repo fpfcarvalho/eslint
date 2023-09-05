@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-curly',
   templateUrl: './curly.component.html',
-  styleUrls: ['./curly.component.scss']
+  styleUrls: ['./curly.component.scss'],
 })
 export class CurlyComponent implements OnInit {
 

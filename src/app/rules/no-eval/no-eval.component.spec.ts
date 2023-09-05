@@ -8,7 +8,7 @@ describe('NoEvalComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoEvalComponent]
+      declarations: [NoEvalComponent],
     })
     .compileComponents();
 

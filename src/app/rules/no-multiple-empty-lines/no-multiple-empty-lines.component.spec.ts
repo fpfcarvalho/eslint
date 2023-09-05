@@ -8,7 +8,7 @@ describe('NoMultipleEmptyLinesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoMultipleEmptyLinesComponent]
+      declarations: [NoMultipleEmptyLinesComponent],
     })
     .compileComponents();
 

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-no-eval',
   templateUrl: './no-eval.component.html',
-  styleUrls: ['./no-eval.component.scss']
+  styleUrls: ['./no-eval.component.scss'],
 })
 export class NoEvalComponent implements OnInit {
 

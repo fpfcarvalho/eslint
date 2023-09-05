@@ -8,7 +8,7 @@ describe('ArrayCallbackReturnComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ArrayCallbackReturnComponent]
+      declarations: [ArrayCallbackReturnComponent],
     })
     .compileComponents();
 

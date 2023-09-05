@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-require-jsdoc',
   templateUrl: './require-jsdoc.component.html',
-  styleUrls: ['./require-jsdoc.component.scss']
+  styleUrls: ['./require-jsdoc.component.scss'],
 })
 export class RequireJsdocComponent implements OnInit {
 
@@ -13,7 +13,7 @@ export class RequireJsdocComponent implements OnInit {
     },
     baz() {
       return 10;
-    }
+    },
   };
 
   ngOnInit() {

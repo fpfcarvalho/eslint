@@ -3,14 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-camelcase',
   templateUrl: './camelcase.component.html',
-  styleUrls: ['./camelcase.component.scss']
+  styleUrls: ['./camelcase.component.scss'],
 })
 export class CamelcaseComponent implements OnInit {
 
   ngOnInit() {
     const myFavoriteColor = '#112C85';
     const obj = {
-      myPref: 1
+      myPref: 1,
     };
     obj.doSomething = function() {
       // ...

@@ -8,7 +8,7 @@ describe('UseLifecycleInterfaceComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [UseLifecycleInterfaceComponent]
+      declarations: [UseLifecycleInterfaceComponent],
     })
     .compileComponents();
 

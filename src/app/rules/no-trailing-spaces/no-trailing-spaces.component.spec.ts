@@ -8,7 +8,7 @@ describe('NoTrailingSpacesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoTrailingSpacesComponent]
+      declarations: [NoTrailingSpacesComponent],
     })
     .compileComponents();
 

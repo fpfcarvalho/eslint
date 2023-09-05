@@ -8,7 +8,7 @@ describe('NoDupeElseIfComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoDupeElseIfComponent]
+      declarations: [NoDupeElseIfComponent],
     })
     .compileComponents();
 

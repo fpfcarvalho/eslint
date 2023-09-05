@@ -8,7 +8,7 @@ describe('NoDebuggerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoDebuggerComponent]
+      declarations: [NoDebuggerComponent],
     })
     .compileComponents();
 
