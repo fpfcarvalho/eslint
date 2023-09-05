@@ -1,7 +1,7 @@
 import { Component, Directive, OnInit } from '@angular/core';
 
 @Directive({
-  selector: 'sg-foo-bar',
+  selector: '[exoSgFooBar]',
 })
 class TestDirective {}
 
