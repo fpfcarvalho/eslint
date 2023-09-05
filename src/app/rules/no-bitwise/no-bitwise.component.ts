@@ -15,8 +15,6 @@ export class NoBitwiseComponent implements OnInit {
     const c = y << z;
 
     const d = y >> z;
-
-    const e = y >>> z;
   }
 
 }
