@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NoTrailingSpacesComponent implements OnInit {
 
   ngOnInit() {
-    const field1 = 'value'; 
+    const field1 = 'value';
 
     const field2 = 'value2'; // this is a comment
   }
