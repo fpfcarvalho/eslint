@@ -24,7 +24,7 @@
       "rules": {
         "array-bracket-spacing": ["error", "always", { "objectsInArrays": false, "arraysInArrays": false, "singleValue": false }],
         "array-callback-return": "error",
-        "@typescript-eslint/ban-types": ["error", { "types": { "fdescribe": "Don't focus tests", "fit": "Don't focus tests" }}],
+        "@typescript-eslint/ban-types": "error",
         "camelcase": "error",
         "comma-dangle": ["error", "always-multiline"],
         "@angular-eslint/component-class-suffix": ["error"],
