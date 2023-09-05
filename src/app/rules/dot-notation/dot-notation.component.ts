@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DotNotationComponent implements OnInit {
 
   ngOnInit() {
-    const x = foo["bar"];
+    const x = foo.bar;
   }
 
 }
