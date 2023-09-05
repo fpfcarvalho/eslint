@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExplicitFunctionReturnTypeComponent implements OnInit {
 
-  ngOnInit() {
+  ngOnInit(): void {
     function test(): void {
       return;
     }
