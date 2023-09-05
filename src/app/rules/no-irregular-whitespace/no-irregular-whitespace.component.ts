@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class NoIrregularWhitespaceComponent {
 
+  thing /*<NBSP>*/(){
+    return 'test';
+  }
+
+  thing2() {
+    return 'test'; /*<ENSP>*/
+  }
+
+  thing3() {
+    return 'test';
+  }
+
 }

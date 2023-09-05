@@ -1,10 +1,7 @@
-import { Component } from '@angular/core';
+import { Pipe } from '@angular/core';
 
-@Component({
-  selector: 'app-use-pipe-transform-interface',
-  templateUrl: './use-pipe-transform-interface.component.html',
-  styleUrls: ['./use-pipe-transform-interface.component.scss']
-})
+@Pipe({ name: 'test' })
 export class UsePipeTransformInterfaceComponent {
 
+  transform(value: string) {}
 }

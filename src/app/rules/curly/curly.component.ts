@@ -1,10 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-curly',
   templateUrl: './curly.component.html',
   styleUrls: ['./curly.component.scss']
 })
-export class CurlyComponent {
+export class CurlyComponent implements OnInit {
+
+  ngOnInit() {
+
+    if (foo) foo++;
+
+    while (bar)
+      baz();
+
+    if (foo) {
+      baz();
+    } else qux();
+  }
 
 }

@@ -1,10 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-no-empty',
   templateUrl: './no-empty.component.html',
   styleUrls: ['./no-empty.component.scss']
 })
-export class NoEmptyComponent {
+export class NoEmptyComponent implements OnInit {
+
+  ngOnInit() {
+    if (foo) {
+    }
+
+    while (foo) {
+    }
+
+    switch(foo) {
+    }
+  }
 
 }
