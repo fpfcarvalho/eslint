@@ -9,17 +9,17 @@ export class NoUnreachableComponent implements OnInit {
 
   ngOnInit() {
     while(value) {
-      break;
       console.log("done");
+      break;
     }
 
-    throw new Error("Oops!");
     console.log("done");
+    throw new Error("Oops!");
   }
 
   foo() {
-    return true;
     console.log("done");
+    return true;
   }
 
 }

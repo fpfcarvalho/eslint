@@ -10,10 +10,12 @@ export class NoUnusedVarsComponent implements OnInit {
   foo = 2;
 
   ngOnInit() {
-    const x;
+    const x = 5;
 
     let y = 10;
-    y = 5;
+    y = 5 + x;
+
+    this.foo = y;
   }
 
 }

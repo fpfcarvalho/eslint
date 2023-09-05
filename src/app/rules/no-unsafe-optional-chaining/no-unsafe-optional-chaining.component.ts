@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class NoUnsafeOptionalChainingComponent implements OnInit {
 
   ngOnInit() {
-    (obj?.foo)();
+    (obj?.foo)?.();
 
-    (obj?.foo).bar;
+    (obj?.foo)?.bar;
 
-    (foo || obj?.foo)();
+    (foo || obj?.foo)?.();
 
-    for (bar of obj?.foo){}
+    for (bar of obj.foo){}
   }
 
 }

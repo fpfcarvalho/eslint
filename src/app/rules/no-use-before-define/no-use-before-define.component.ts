@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class NoUseBeforeDefineComponent implements OnInit {
 
   ngOnInit() {
+    const b = 1;
     function function1() {
       return b;
     }
-    const b = 1;
 
-    function2();
     function function2() {}
+    function2();
   }
 
 }

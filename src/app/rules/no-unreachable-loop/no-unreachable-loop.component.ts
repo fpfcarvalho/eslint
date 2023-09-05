@@ -11,16 +11,14 @@ export class NoUnreachableLoopComponent implements OnInit {
     while (foo) {
       doSomething(foo);
       foo = foo.parent;
-      break;
     }
 
     for (var i = 0; i < arr.length; i++) {
       if (isSomething(arr[i])) {
         return arr[i];
-      } else {
-        throw new Error("Doesn't exist.");
       }
     }
+    throw new Error("Doesn't exist.");
   }
 
 }

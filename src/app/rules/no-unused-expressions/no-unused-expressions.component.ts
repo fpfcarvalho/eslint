@@ -11,6 +11,7 @@ export class NoUnusedExpressionsComponent implements OnInit {
     let i = 0;
     function increment() { i += 1; }
     increment();
+    console.log(i);
   }
 
 }
