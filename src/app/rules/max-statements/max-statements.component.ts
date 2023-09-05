@@ -16,10 +16,6 @@ export class MaxStatementsComponent implements OnInit {
     const xpto6 = 1;
     const xpto7 = 1;
     const xpto8 = 1;
-    const xpto9 = 1;
-    const xpto10 = 1;
-    const xpto11 = 1;
-    const xpto12 = 1;
   }
 
 }
