@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NoThrowLiteralComponent implements OnInit {
 
   ngOnInit() {
-    throw new Error("error");
+    throw new Error('error');
 
     throw new Error();
 

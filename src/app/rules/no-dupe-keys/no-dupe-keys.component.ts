@@ -9,18 +9,18 @@ export class NoDupeKeysComponent implements OnInit {
 
   ngOnInit() {
     const foo = {
-      bar: "baz",
-      qux: "qux",
+      bar: 'baz',
+      qux: 'qux',
     };
 
     const foo = {
-      "bar": "baz",
-      qux: "qux",
+      'bar': 'baz',
+      qux: 'qux',
     };
 
     const foo = {
-      0x1: "baz",
-      2: "qux",
+      0x1: 'baz',
+      2: 'qux',
     };
   }
 

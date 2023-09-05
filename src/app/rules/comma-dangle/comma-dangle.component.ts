@@ -9,11 +9,11 @@ export class CommaDangleComponent implements OnInit {
 
   ngOnInit() {
     const foo = {
-      bar: "baz",
-      qux: "quux",
+      bar: 'baz',
+      qux: 'quux',
     };
 
-    const foo = { bar: "baz", qux: "quux" };
+    const foo = { bar: 'baz', qux: 'quux' };
     const arr = [ 1,2 ];
     const arr = [ 1,
       2 ];
@@ -24,8 +24,8 @@ export class CommaDangleComponent implements OnInit {
     ];
 
     foo({
-      bar: "baz",
-      qux: "quux",
+      bar: 'baz',
+      qux: 'quux',
     });
   }
 

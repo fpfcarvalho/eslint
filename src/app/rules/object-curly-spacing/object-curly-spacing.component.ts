@@ -8,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class ObjectCurlySpacingComponent implements OnInit {
 
   ngOnInit() {
-    const obj1 = {'foo': 'bar'};
-    const obj2 = {'foo': 'bar' };
-    const obj3 = { baz: {'foo': 'qux'}, bar};
-    const obj4 = {baz: { 'foo': 'qux' }, bar};
-    const obj5 = {'foo': 'bar',
+    const obj1 = { 'foo': 'bar' };
+    const obj2 = { 'foo': 'bar' };
+    const obj3 = { baz: { 'foo': 'qux' }, bar };
+    const obj4 = { baz: { 'foo': 'qux' }, bar };
+    const obj5 = { 'foo': 'bar',
     };
     const obj6 = {
-      'foo':'bar'};
-    const {x} = y;
+      'foo':'bar' };
+    const { x } = y;
   }
 
 }

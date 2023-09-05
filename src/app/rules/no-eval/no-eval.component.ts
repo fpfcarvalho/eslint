@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class NoEvalComponent implements OnInit {
 
   ngOnInit() {
-    const obj = { x: "foo" },
-      key = "x",
-      value = eval("obj." + key);
+    const obj = { x: 'foo' },
+      key = 'x',
+      value = eval('obj.' + key);
   }
 
 }

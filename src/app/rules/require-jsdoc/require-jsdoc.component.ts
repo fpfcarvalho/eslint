@@ -8,20 +8,32 @@ import { Component, OnInit } from '@angular/core';
 export class RequireJsdocComponent implements OnInit {
 
   obj = {
+    /**
+     * bar function
+     */
     bar: function() {
       return 10;
     },
+    /**
+     * baz function
+     */
     baz() {
       return 10;
     },
   };
 
+  /**
+   * ngOnInit method
+   */
   ngOnInit() {
     const aaa = () => {
       return 10;
     };
   }
 
+  /**
+   * foo method
+   */
   foo() {
     return 10;
   }

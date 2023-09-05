@@ -10,7 +10,7 @@ export class NoMultiSpacesComponent implements OnInit {
   ngOnInit() {
     const a = 1;
 
-    if(foo === "bar") {}
+    if(foo === 'bar') {}
 
     const arr = [ 1, 2 ];
 

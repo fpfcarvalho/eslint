@@ -18,7 +18,7 @@ export class NoUnreachableLoopComponent implements OnInit {
         return arr[i];
       }
     }
-    throw new Error("Doesn't exist.");
+    throw new Error('Doesn\'t exist.');
   }
 
 }

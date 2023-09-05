@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SemiComponent implements OnInit {
 
-  name = "ESLint"
+  name = 'ESLint';
 
   ngOnInit() {
     object.method = function() {
       // ...
-    }
+    };
 
-    const field = ''
+    const field = '';
   }
 
 }

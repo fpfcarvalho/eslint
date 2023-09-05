@@ -9,9 +9,9 @@ export class IndentComponent implements OnInit {
 
   ngOnInit() {
     switch(a){
-      case "a":
+      case 'a':
         break;
-      case "b":
+      case 'b':
         break;
     }
 

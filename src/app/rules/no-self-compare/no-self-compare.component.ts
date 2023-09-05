@@ -10,7 +10,7 @@ export class NoSelfCompareComponent implements OnInit {
   ngOnInit() {
 
     let x = 10;
-    let y = 10;
+    const y = 10;
     if (x === y) {
       x = 20;
     }

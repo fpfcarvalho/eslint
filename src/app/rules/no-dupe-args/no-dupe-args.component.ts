@@ -9,12 +9,12 @@ export class NoDupeArgsComponent implements OnInit {
 
   ngOnInit() {
     const bar = function (a, b) {
-      console.log("value of a:", a);
+      console.log('value of a:', a);
     };
   }
 
   foo(a, b) {
-    console.log("value of a:", a);
+    console.log('value of a:', a);
   }
 
 }

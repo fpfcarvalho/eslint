@@ -9,10 +9,17 @@ export class NoUseBeforeDefineComponent implements OnInit {
 
   ngOnInit() {
     const b = 1;
+
+    /**
+     *
+     */
     function function1() {
       return b;
     }
 
+    /**
+     *
+     */
     function function2() {}
     function2();
   }

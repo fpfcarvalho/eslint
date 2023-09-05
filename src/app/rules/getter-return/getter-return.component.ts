@@ -14,7 +14,7 @@ export class GetterReturnComponent implements OnInit {
       },
     };
 
-    Object.defineProperty(p, "age", {
+    Object.defineProperty(p, 'age', {
       get: function (){
         return '';
       },

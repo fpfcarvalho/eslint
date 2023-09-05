@@ -20,7 +20,7 @@ export class ArrayCallbackReturnComponent implements OnInit {
     }, {});
 
     const foo = Array.from(myArray, function(node) {
-      if (node.prop === "DIV") {
+      if (node.prop === 'DIV') {
         return true;
       }
       return false;

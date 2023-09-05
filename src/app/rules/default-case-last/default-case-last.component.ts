@@ -21,10 +21,10 @@ export class DefaultCaseLastComponent implements OnInit {
     }
 
     switch (foo) {
-      case "x":
+      case 'x':
         bar();
         break;
-      case "y":
+      case 'y':
       default:
         baz();
         break;

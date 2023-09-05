@@ -9,7 +9,7 @@ export class NoSparseArraysComponent implements OnInit {
 
   ngOnInit() {
     const items = [];
-    const colors = [ "red", "blue", ];
+    const colors = [ 'red', 'blue', ];
   }
 
 }
