@@ -12,11 +12,11 @@ export class DefaultCaseLastComponent implements OnInit {
       case 1:
         bar();
         break;
-      default:
-        baz();
-        break;
       case 2:
         quux();
+        break;
+      default:
+        baz();
         break;
     }
 
@@ -24,8 +24,8 @@ export class DefaultCaseLastComponent implements OnInit {
       case "x":
         bar();
         break;
-      default:
       case "y":
+      default:
         baz();
         break;
     }
