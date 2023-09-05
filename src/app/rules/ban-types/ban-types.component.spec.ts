@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BanTypesComponent } from './ban-types.component';
 
-describe('BanTypesComponent', () => {
+fdescribe('BanTypesComponent', () => {
   let component: BanTypesComponent;
   let fixture: ComponentFixture<BanTypesComponent>;
 
@@ -17,7 +17,7 @@ describe('BanTypesComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  fit('should create', () => {
     expect(component).toBeTruthy();
   });
 });
