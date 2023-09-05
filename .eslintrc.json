@@ -42,11 +42,11 @@
         "@angular-eslint/no-conflicting-lifecycle": "error",
         "no-console": ["error"],
         "no-const-assign": "error",
-        "no-debugger": "error"
-//        "no-dupe-args": "error",
-//        "no-dupe-class-members": "error",
-//        "no-dupe-else-if": "error",
-//        "no-dupe-keys": "error",
+        "no-debugger": "error",
+        "no-dupe-args": "error",
+        "no-dupe-class-members": "error",
+        "no-dupe-else-if": "error",
+        "no-dupe-keys": "error"
 //        "no-duplicate-case": "error",
 //        "no-duplicate-imports": "error",
 //        "no-empty": ["error", { "allowEmptyCatch": true }],

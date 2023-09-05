@@ -8,10 +8,8 @@ import { Component } from '@angular/core';
 export class NoDupeClassMembersComponent {
 
   foo;
-  foo;
 
   get bar() { }
 
-  bar() { }
-  bar() { }
+  bar2() { }
 }

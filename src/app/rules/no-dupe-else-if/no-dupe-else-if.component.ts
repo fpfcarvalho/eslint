@@ -10,7 +10,7 @@ export class NoDupeElseIfComponent implements OnInit {
   ngOnInit() {
     if (isSomething(x)) {
       foo();
-    } else if (isSomething(x)) {
+    } else if (isSomethingElse(x)) {
       bar();
     }
 
@@ -18,8 +18,6 @@ export class NoDupeElseIfComponent implements OnInit {
       foo();
     } else if (b && c) {
       baz();
-    } else if (b && c) {
-      quux();
     } else {
       quuux();
     }
