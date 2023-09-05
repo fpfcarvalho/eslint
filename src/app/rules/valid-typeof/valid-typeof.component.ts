@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class ValidTypeofComponent implements OnInit {
 
   ngOnInit() {
-    typeof foo === 'strnig';
-    typeof foo === 'undefimed';
-    typeof bar !== 'nunber';
-    typeof bar !== 'fucntion';
+    typeof foo === 'string';
+    typeof foo === 'undefined';
+    typeof bar !== 'number';
+    typeof bar !== 'function';
   }
 }
