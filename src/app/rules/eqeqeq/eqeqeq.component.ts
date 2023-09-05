@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-eqeqeq',
   templateUrl: './eqeqeq.component.html',
   styleUrls: ['./eqeqeq.component.scss']
 })
-export class EqeqeqComponent {
+export class EqeqeqComponent implements OnInit {
+
+  ngOnInit() {
+    if (x == 42) { }
+
+    if ('' == text) { }
+
+    if (obj.getStuff() != undefined) { }
+  }
 
 }
