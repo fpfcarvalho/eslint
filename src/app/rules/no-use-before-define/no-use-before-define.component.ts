@@ -13,7 +13,6 @@ export class NoUseBeforeDefineComponent implements OnInit {
     }
     const b = 1;
 
-
     function2();
     function function2() {}
   }

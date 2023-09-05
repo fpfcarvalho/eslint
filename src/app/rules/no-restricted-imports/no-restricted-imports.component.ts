@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import fs from 'fs';
 
 @Component({
   selector: 'exo-no-restricted-imports',

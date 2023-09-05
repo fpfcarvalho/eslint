@@ -11,8 +11,6 @@ export class NoMultipleEmptyLinesComponent implements OnInit {
 
     const foo = 1;
 
-
-
     const bar = 2;
   }
 

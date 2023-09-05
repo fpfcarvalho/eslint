@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class NoSelfAssignComponent implements OnInit {
 
   ngOnInit() {
-    foo = foo;
+    foo = bar;
 
-    [ a, b ] = [ a, b ];
+    [ a, b ] = [ b, a ];
 
-    [ a, ...b ] = [ x, ...b ];
+    [ a, ...b ] = [ x, ...c ];
   }
 
 }
