@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class NoAlertComponent implements OnInit {
 
   ngOnInit() {
-    alert("here!");
+    customAlert("here!"); // custom library
 
-    confirm("Are you sure?");
+    customConfirm("Are you sure?"); // custom library
 
-    prompt("What's your name?", "John Doe");
+    customPrompt("What's your name?", "John Doe"); // custom library
   }
 
 }
