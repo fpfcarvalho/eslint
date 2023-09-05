@@ -8,15 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class NoBitwiseComponent implements OnInit {
 
   ngOnInit() {
-    const a = y | z;
+    const a = y || z;
 
-    const b = y & z;
+    const b = y && z;
 
-    const c = y << z;
+    const c = y < z;
 
-    const d = y >> z;
-
-    const e = y >>> z;
+    const d = y > z;
   }
 
 }

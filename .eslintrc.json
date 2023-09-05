@@ -37,7 +37,7 @@
         "max-lines-per-function": ["warn", { "max": 10, "skipBlankLines": true, "skipComments": true }],
         "max-statements": ["warn", 10],
         "no-alert": "error",
-//        "no-bitwise": "warn",
+        "no-bitwise": "warn",
 //        "no-compare-neg-zero": "warn",
 //        "@angular-eslint/no-conflicting-lifecycle": "error",
 //        "no-console": ["error"],
