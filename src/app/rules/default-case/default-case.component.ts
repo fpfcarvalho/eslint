@@ -15,6 +15,9 @@ export class DefaultCaseComponent implements OnInit {
       case 2:
         /* code */
         break;
+      default:
+        /* code */
+        break;
     }
   }
 

@@ -22,8 +22,8 @@
         "comma-dangle": ["error", "always-multiline"],
         "@angular-eslint/component-class-suffix": ["error"],
         "@angular-eslint/component-selector": ["error", { "prefix": "exo", "style": "kebab-case", "type": "element" }],
-        "curly": "error"
-//        "default-case": "error",
+        "curly": "error",
+        "default-case": "error"
 //        "default-case-last": "error",
 //        "@angular-eslint/directive-class-suffix": ["error"],
 //        "@angular-eslint/directive-selector": ["error", { "prefix": "exo", "style": "camelCase", "type": "attribute" }],
