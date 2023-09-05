@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NoCompareNegZeroComponent implements OnInit {
 
   ngOnInit() {
-    if (x === -0) {
+    if (x === 0) {
       // doSomething()...
     }
   }
