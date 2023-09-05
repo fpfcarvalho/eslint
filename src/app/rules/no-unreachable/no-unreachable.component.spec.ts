@@ -8,7 +8,7 @@ describe('NoUnreachableComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoUnreachableComponent]
+      declarations: [NoUnreachableComponent],
     })
     .compileComponents();
 

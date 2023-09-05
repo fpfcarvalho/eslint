@@ -8,7 +8,7 @@ describe('BanTypesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [BanTypesComponent]
+      declarations: [BanTypesComponent],
     })
     .compileComponents();
 

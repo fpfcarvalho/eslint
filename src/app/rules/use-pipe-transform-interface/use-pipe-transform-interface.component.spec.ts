@@ -8,7 +8,7 @@ describe('UsePipeTransformInterfaceComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [UsePipeTransformInterfaceComponent]
+      declarations: [UsePipeTransformInterfaceComponent],
     })
     .compileComponents();
 

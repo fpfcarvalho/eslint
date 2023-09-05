@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-eqeqeq',
   templateUrl: './eqeqeq.component.html',
-  styleUrls: ['./eqeqeq.component.scss']
+  styleUrls: ['./eqeqeq.component.scss'],
 })
 export class EqeqeqComponent implements OnInit {
 

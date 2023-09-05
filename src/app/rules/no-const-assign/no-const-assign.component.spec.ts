@@ -8,7 +8,7 @@ describe('NoConstAssignComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoConstAssignComponent]
+      declarations: [NoConstAssignComponent],
     })
     .compileComponents();
 

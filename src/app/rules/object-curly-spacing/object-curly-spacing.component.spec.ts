@@ -8,7 +8,7 @@ describe('ObjectCurlySpacingComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ObjectCurlySpacingComponent]
+      declarations: [ObjectCurlySpacingComponent],
     })
     .compileComponents();
 

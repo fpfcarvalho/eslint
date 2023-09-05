@@ -8,7 +8,7 @@ describe('NoUnreachableLoopComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoUnreachableLoopComponent]
+      declarations: [NoUnreachableLoopComponent],
     })
     .compileComponents();
 

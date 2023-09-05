@@ -8,7 +8,7 @@ describe('NoDupeArgsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoDupeArgsComponent]
+      declarations: [NoDupeArgsComponent],
     })
     .compileComponents();
 

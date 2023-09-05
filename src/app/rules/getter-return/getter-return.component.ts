@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-getter-return',
   templateUrl: './getter-return.component.html',
-  styleUrls: ['./getter-return.component.scss']
+  styleUrls: ['./getter-return.component.scss'],
 })
 export class GetterReturnComponent implements OnInit {
 
@@ -11,13 +11,13 @@ export class GetterReturnComponent implements OnInit {
     p = {
       get name(){
 
-      }
+      },
     };
 
     Object.defineProperty(p, "age", {
       get: function (){
 
-      }
+      },
     });
 
     class P {

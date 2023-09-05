@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-no-dupe-class-members',
   templateUrl: './no-dupe-class-members.component.html',
-  styleUrls: ['./no-dupe-class-members.component.scss']
+  styleUrls: ['./no-dupe-class-members.component.scss'],
 })
 export class NoDupeClassMembersComponent {
 

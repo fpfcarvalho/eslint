@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-default-case-last',
   templateUrl: './default-case-last.component.html',
-  styleUrls: ['./default-case-last.component.scss']
+  styleUrls: ['./default-case-last.component.scss'],
 })
 export class DefaultCaseLastComponent implements OnInit {
 

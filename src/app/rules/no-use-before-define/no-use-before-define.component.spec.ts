@@ -8,7 +8,7 @@ describe('NoUseBeforeDefineComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoUseBeforeDefineComponent]
+      declarations: [NoUseBeforeDefineComponent],
     })
     .compileComponents();
 

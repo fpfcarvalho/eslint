@@ -8,7 +8,7 @@ describe('GetterReturnComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [GetterReturnComponent]
+      declarations: [GetterReturnComponent],
     })
     .compileComponents();
 

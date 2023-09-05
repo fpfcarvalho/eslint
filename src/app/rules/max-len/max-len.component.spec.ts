@@ -8,7 +8,7 @@ describe('MaxLenComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [MaxLenComponent]
+      declarations: [MaxLenComponent],
     })
     .compileComponents();
 

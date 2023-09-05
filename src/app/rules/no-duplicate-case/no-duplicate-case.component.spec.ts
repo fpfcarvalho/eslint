@@ -8,7 +8,7 @@ describe('NoDuplicateCaseComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoDuplicateCaseComponent]
+      declarations: [NoDuplicateCaseComponent],
     })
     .compileComponents();
 

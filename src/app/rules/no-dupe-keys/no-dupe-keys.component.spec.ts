@@ -8,7 +8,7 @@ describe('NoDupeKeysComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoDupeKeysComponent]
+      declarations: [NoDupeKeysComponent],
     })
     .compileComponents();
 

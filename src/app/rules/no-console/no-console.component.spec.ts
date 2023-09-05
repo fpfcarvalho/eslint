@@ -8,7 +8,7 @@ describe('NoConsoleComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoConsoleComponent]
+      declarations: [NoConsoleComponent],
     })
     .compileComponents();
 

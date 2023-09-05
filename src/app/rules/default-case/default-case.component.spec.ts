@@ -8,7 +8,7 @@ describe('DefaultCaseComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DefaultCaseComponent]
+      declarations: [DefaultCaseComponent],
     })
     .compileComponents();
 

@@ -8,7 +8,7 @@ describe('NoDuplicateImportsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoDuplicateImportsComponent]
+      declarations: [NoDuplicateImportsComponent],
     })
     .compileComponents();
 

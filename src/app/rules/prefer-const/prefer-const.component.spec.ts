@@ -8,7 +8,7 @@ describe('PreferConstComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PreferConstComponent]
+      declarations: [PreferConstComponent],
     })
     .compileComponents();
 

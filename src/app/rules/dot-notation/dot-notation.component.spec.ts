@@ -8,7 +8,7 @@ describe('DotNotationComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DotNotationComponent]
+      declarations: [DotNotationComponent],
     })
     .compileComponents();
 

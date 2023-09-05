@@ -8,7 +8,7 @@ describe('NoUnusedVarsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NoUnusedVarsComponent]
+      declarations: [NoUnusedVarsComponent],
     })
     .compileComponents();
 

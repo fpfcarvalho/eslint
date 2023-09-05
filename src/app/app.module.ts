@@ -148,7 +148,7 @@ import { DotNotationComponent } from './rules/dot-notation/dot-notation.componen
     UseIsnanComponent,
     ValidTypeofComponent,
     DefaultCaseLastComponent,
-    DotNotationComponent
+    DotNotationComponent,
   ],
   imports: [
     BrowserModule,
@@ -156,9 +156,9 @@ import { DotNotationComponent } from './rules/dot-notation/dot-notation.componen
     BrowserAnimationsModule,
     MatButtonModule,
     MatListModule,
-    MatToolbarModule
+    MatToolbarModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
