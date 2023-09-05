@@ -89,7 +89,8 @@
         "use-isnan": ["error", { "enforceForSwitchCase": true }],
         "@angular-eslint/use-lifecycle-interface": "error",
         "@angular-eslint/use-pipe-transform-interface": "error",
-        "valid-typeof": "error"
+        "valid-typeof": "error",
+        "jasmine/no-focused-tests": 2
       }
     },
     {

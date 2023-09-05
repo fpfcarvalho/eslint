@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BanTypesComponent } from './ban-types.component';
 
-fdescribe('BanTypesComponent', () => {
+describe('BanTypesComponent', () => {
   let component: BanTypesComponent;
   let fixture: ComponentFixture<BanTypesComponent>;
 
