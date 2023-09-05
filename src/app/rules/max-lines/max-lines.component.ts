@@ -7,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MaxLinesComponent implements OnInit {
   ngOnInit() {
-    const a,
-      b,
-      c;
+    const a, b, c;
   }
 
 }

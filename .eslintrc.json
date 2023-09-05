@@ -32,8 +32,8 @@
         "@typescript-eslint/explicit-function-return-type": "error",
         "getter-return": "error",
         "indent": ["error", 2, { "SwitchCase": 1 }],
-        "max-len": ["error", 80]
-//        "max-lines": ["warn", { "max": 10000, "skipBlankLines": true, "skipComments": true }],
+        "max-len": ["error", 140],
+        "max-lines": ["warn", { "max": 16, "skipBlankLines": true, "skipComments": true }]
 //        "max-lines-per-function": ["warn", { "max": 1500, "skipBlankLines": true, "skipComments": true }],
 //        "max-statements": ["warn", 300],
 //        "no-alert": "error",
