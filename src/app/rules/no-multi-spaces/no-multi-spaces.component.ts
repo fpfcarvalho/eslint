@@ -12,7 +12,7 @@ export class NoMultiSpacesComponent implements OnInit {
 
     if(foo   === "bar") {}
 
-    const arr = [1,  2];
+    const arr = [ 1,  2 ];
 
     const x = a ?  b: c;
   }

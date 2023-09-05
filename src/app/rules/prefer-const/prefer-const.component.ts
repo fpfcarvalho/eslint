@@ -12,7 +12,7 @@ export class PreferConstComponent implements OnInit {
     let field = 3;
     console.log(field);
 
-    for (let i in [1, 2, 3]) {
+    for (let i in [ 1, 2, 3 ]) {
       console.log(i);
     }
   }

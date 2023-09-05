@@ -14,9 +14,9 @@ export class CommaDangleComponent implements OnInit {
     };
 
     const foo = { bar: "baz", qux: "quux", };
-    const arr = [1,2,];
-    const arr = [1,
-      2,];
+    const arr = [ 1,2, ];
+    const arr = [ 1,
+      2, ];
 
     const arr = [
       1,
