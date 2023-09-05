@@ -10,7 +10,7 @@ describe('NoMultiSpacesComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoMultiSpacesComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoMultiSpacesComponent);
     component = fixture.componentInstance;

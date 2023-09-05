@@ -10,7 +10,7 @@ describe('MaxLenComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [MaxLenComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(MaxLenComponent);
     component = fixture.componentInstance;

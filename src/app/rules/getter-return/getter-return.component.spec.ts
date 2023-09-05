@@ -10,7 +10,7 @@ describe('GetterReturnComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [GetterReturnComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(GetterReturnComponent);
     component = fixture.componentInstance;

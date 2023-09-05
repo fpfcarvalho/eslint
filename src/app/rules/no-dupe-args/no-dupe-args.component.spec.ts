@@ -10,7 +10,7 @@ describe('NoDupeArgsComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoDupeArgsComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoDupeArgsComponent);
     component = fixture.componentInstance;

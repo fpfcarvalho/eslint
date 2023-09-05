@@ -10,7 +10,7 @@ describe('NoTemplateCurlyInStringComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoTemplateCurlyInStringComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoTemplateCurlyInStringComponent);
     component = fixture.componentInstance;

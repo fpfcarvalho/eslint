@@ -10,7 +10,7 @@ describe('UseLifecycleInterfaceComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [UseLifecycleInterfaceComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(UseLifecycleInterfaceComponent);
     component = fixture.componentInstance;

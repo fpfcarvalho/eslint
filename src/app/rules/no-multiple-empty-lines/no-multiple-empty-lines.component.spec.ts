@@ -10,7 +10,7 @@ describe('NoMultipleEmptyLinesComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoMultipleEmptyLinesComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoMultipleEmptyLinesComponent);
     component = fixture.componentInstance;

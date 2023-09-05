@@ -10,7 +10,7 @@ describe('NoAlertComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoAlertComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoAlertComponent);
     component = fixture.componentInstance;

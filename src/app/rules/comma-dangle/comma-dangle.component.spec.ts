@@ -10,7 +10,7 @@ describe('CommaDangleComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [CommaDangleComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(CommaDangleComponent);
     component = fixture.componentInstance;

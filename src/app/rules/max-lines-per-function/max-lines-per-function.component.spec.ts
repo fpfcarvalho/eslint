@@ -10,7 +10,7 @@ describe('MaxLinesPerFunctionComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [MaxLinesPerFunctionComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(MaxLinesPerFunctionComponent);
     component = fixture.componentInstance;

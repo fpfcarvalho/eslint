@@ -10,7 +10,7 @@ describe('NoEmptyFunctionComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoEmptyFunctionComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoEmptyFunctionComponent);
     component = fixture.componentInstance;

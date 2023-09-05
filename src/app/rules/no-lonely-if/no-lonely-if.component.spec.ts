@@ -10,7 +10,7 @@ describe('NoLonelyIfComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoLonelyIfComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoLonelyIfComponent);
     component = fixture.componentInstance;

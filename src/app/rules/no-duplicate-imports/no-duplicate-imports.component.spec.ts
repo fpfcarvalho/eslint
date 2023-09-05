@@ -10,7 +10,7 @@ describe('NoDuplicateImportsComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoDuplicateImportsComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoDuplicateImportsComponent);
     component = fixture.componentInstance;

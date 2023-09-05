@@ -10,7 +10,7 @@ describe('ArrayCallbackReturnComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ArrayCallbackReturnComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ArrayCallbackReturnComponent);
     component = fixture.componentInstance;

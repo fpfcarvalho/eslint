@@ -10,7 +10,7 @@ describe('NoWhitespaceBeforePropertyComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoWhitespaceBeforePropertyComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoWhitespaceBeforePropertyComponent);
     component = fixture.componentInstance;

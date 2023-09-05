@@ -10,7 +10,7 @@ describe('DotNotationComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [DotNotationComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(DotNotationComponent);
     component = fixture.componentInstance;

@@ -10,7 +10,7 @@ describe('NoRestrictedImportsComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoRestrictedImportsComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoRestrictedImportsComponent);
     component = fixture.componentInstance;

@@ -10,7 +10,7 @@ describe('DirectiveSelectorComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [DirectiveSelectorComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(DirectiveSelectorComponent);
     component = fixture.componentInstance;

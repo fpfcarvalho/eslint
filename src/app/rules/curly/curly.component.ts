@@ -12,7 +12,7 @@ export class CurlyComponent implements OnInit {
     if (foo) {foo++;}
 
     while (bar)
-      {baz();}
+    {baz();}
 
     if (foo) {
       baz();

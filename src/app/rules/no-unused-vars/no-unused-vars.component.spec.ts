@@ -10,7 +10,7 @@ describe('NoUnusedVarsComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoUnusedVarsComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoUnusedVarsComponent);
     component = fixture.componentInstance;

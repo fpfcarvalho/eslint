@@ -10,7 +10,7 @@ describe('NoExtraSemiComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoExtraSemiComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoExtraSemiComponent);
     component = fixture.componentInstance;

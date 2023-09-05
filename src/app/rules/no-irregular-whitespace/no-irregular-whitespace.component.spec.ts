@@ -10,7 +10,7 @@ describe('NoIrregularWhitespaceComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoIrregularWhitespaceComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoIrregularWhitespaceComponent);
     component = fixture.componentInstance;

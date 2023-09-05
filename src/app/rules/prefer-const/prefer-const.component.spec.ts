@@ -10,7 +10,7 @@ describe('PreferConstComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [PreferConstComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(PreferConstComponent);
     component = fixture.componentInstance;

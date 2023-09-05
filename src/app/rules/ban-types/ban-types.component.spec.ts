@@ -10,7 +10,7 @@ describe('BanTypesComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [BanTypesComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(BanTypesComponent);
     component = fixture.componentInstance;

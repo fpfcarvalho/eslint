@@ -10,7 +10,7 @@ describe('NoConflictingLifecycleComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoConflictingLifecycleComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoConflictingLifecycleComponent);
     component = fixture.componentInstance;

@@ -10,7 +10,7 @@ describe('CamelcaseComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [CamelcaseComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(CamelcaseComponent);
     component = fixture.componentInstance;

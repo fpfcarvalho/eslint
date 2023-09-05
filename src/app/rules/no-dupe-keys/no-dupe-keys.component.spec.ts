@@ -10,7 +10,7 @@ describe('NoDupeKeysComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoDupeKeysComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoDupeKeysComponent);
     component = fixture.componentInstance;

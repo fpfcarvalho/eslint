@@ -10,7 +10,7 @@ describe('ExplicitFunctionReturnTypeComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ExplicitFunctionReturnTypeComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ExplicitFunctionReturnTypeComponent);
     component = fixture.componentInstance;

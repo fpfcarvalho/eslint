@@ -10,7 +10,7 @@ describe('RadixComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [RadixComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(RadixComponent);
     component = fixture.componentInstance;

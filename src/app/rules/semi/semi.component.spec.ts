@@ -10,7 +10,7 @@ describe('SemiComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [SemiComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(SemiComponent);
     component = fixture.componentInstance;

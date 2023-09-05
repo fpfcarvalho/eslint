@@ -10,7 +10,7 @@ describe('RequireJsdocComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [RequireJsdocComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(RequireJsdocComponent);
     component = fixture.componentInstance;
