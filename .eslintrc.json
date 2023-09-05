@@ -38,8 +38,8 @@
         "max-statements": ["warn", 10],
         "no-alert": "error",
         "no-bitwise": "warn",
-        "no-compare-neg-zero": "warn"
-//        "@angular-eslint/no-conflicting-lifecycle": "error",
+        "no-compare-neg-zero": "warn",
+        "@angular-eslint/no-conflicting-lifecycle": "error"
 //        "no-console": ["error"],
 //        "no-const-assign": "error",
 //        "no-debugger": "error",
