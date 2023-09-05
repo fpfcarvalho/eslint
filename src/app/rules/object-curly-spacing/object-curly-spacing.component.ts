@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-object-curly-spacing',
+  selector: 'exo-object-curly-spacing',
   templateUrl: './object-curly-spacing.component.html',
   styleUrls: ['./object-curly-spacing.component.scss'],
 })

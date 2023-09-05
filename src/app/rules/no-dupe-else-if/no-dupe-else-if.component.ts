@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-dupe-else-if',
+  selector: 'exo-no-dupe-else-if',
   templateUrl: './no-dupe-else-if.component.html',
   styleUrls: ['./no-dupe-else-if.component.scss'],
 })

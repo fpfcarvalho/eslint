@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-multi-spaces',
+  selector: 'exo-no-multi-spaces',
   templateUrl: './no-multi-spaces.component.html',
   styleUrls: ['./no-multi-spaces.component.scss'],
 })

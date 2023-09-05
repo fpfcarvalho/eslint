@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-self-compare',
+  selector: 'exo-no-self-compare',
   templateUrl: './no-self-compare.component.html',
   styleUrls: ['./no-self-compare.component.scss'],
 })

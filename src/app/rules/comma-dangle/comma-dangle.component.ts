@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-comma-dangle',
+  selector: 'exo-comma-dangle',
   templateUrl: './comma-dangle.component.html',
   styleUrls: ['./comma-dangle.component.scss'],
 })

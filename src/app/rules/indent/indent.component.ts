@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-indent',
+  selector: 'exo-indent',
   templateUrl: './indent.component.html',
   styleUrls: ['./indent.component.scss'],
 })

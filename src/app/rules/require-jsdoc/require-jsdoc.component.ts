@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-require-jsdoc',
+  selector: 'exo-require-jsdoc',
   templateUrl: './require-jsdoc.component.html',
   styleUrls: ['./require-jsdoc.component.scss'],
 })

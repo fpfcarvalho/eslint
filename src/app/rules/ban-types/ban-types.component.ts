@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ban-types',
+  selector: 'exo-ban-types',
   templateUrl: './ban-types.component.html',
   styleUrls: ['./ban-types.component.scss'],
 })

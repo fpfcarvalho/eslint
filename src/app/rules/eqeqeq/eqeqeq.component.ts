@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-eqeqeq',
+  selector: 'exo-eqeqeq',
   templateUrl: './eqeqeq.component.html',
   styleUrls: ['./eqeqeq.component.scss'],
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-throw-literal',
+  selector: 'exo-no-throw-literal',
   templateUrl: './no-throw-literal.component.html',
   styleUrls: ['./no-throw-literal.component.scss'],
 })

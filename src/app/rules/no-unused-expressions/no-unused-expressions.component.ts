@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-unused-expressions',
+  selector: 'exo-no-unused-expressions',
   templateUrl: './no-unused-expressions.component.html',
   styleUrls: ['./no-unused-expressions.component.scss'],
 })

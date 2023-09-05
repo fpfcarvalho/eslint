@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-max-lines',
+  selector: 'exo-max-lines',
   templateUrl: './max-lines.component.html',
   styleUrls: ['./max-lines.component.scss'],
 })

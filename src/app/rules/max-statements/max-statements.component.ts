@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-max-statements',
+  selector: 'exo-max-statements',
   templateUrl: './max-statements.component.html',
   styleUrls: ['./max-statements.component.scss'],
 })

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-radix',
+  selector: 'exo-radix',
   templateUrl: './radix.component.html',
   styleUrls: ['./radix.component.scss'],
 })

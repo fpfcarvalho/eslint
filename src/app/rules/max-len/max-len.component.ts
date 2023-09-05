@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-max-len',
+  selector: 'exo-max-len',
   templateUrl: './max-len.component.html',
   styleUrls: ['./max-len.component.scss'],
 })

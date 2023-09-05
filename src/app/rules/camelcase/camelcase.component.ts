@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-camelcase',
+  selector: 'exo-camelcase',
   templateUrl: './camelcase.component.html',
   styleUrls: ['./camelcase.component.scss'],
 })

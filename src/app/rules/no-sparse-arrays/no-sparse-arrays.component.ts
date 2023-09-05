@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-sparse-arrays',
+  selector: 'exo-no-sparse-arrays',
   templateUrl: './no-sparse-arrays.component.html',
   styleUrls: ['./no-sparse-arrays.component.scss'],
 })

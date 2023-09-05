@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-console',
+  selector: 'exo-no-console',
   templateUrl: './no-console.component.html',
   styleUrls: ['./no-console.component.scss'],
 })

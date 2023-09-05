@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-use-before-define',
+  selector: 'exo-no-use-before-define',
   templateUrl: './no-use-before-define.component.html',
   styleUrls: ['./no-use-before-define.component.scss'],
 })

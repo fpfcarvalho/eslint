@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-empty-function',
+  selector: 'exo-no-empty-function',
   templateUrl: './no-empty-function.component.html',
   styleUrls: ['./no-empty-function.component.scss'],
 })

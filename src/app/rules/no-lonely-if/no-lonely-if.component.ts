@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-lonely-if',
+  selector: 'exo-no-lonely-if',
   templateUrl: './no-lonely-if.component.html',
   styleUrls: ['./no-lonely-if.component.scss'],
 })

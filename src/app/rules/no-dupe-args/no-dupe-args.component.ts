@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-dupe-args',
+  selector: 'exo-no-dupe-args',
   templateUrl: './no-dupe-args.component.html',
   styleUrls: ['./no-dupe-args.component.scss'],
 })

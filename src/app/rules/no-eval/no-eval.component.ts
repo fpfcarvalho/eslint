@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-eval',
+  selector: 'exo-no-eval',
   templateUrl: './no-eval.component.html',
   styleUrls: ['./no-eval.component.scss'],
 })

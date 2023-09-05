@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-getter-return',
+  selector: 'exo-getter-return',
   templateUrl: './getter-return.component.html',
   styleUrls: ['./getter-return.component.scss'],
 })

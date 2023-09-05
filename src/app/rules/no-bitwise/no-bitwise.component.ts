@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-bitwise',
+  selector: 'exo-no-bitwise',
   templateUrl: './no-bitwise.component.html',
   styleUrls: ['./no-bitwise.component.scss'],
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-curly',
+  selector: 'exo-curly',
   templateUrl: './curly.component.html',
   styleUrls: ['./curly.component.scss'],
 })

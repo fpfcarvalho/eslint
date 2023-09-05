@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-default-case',
+  selector: 'exo-default-case',
   templateUrl: './default-case.component.html',
   styleUrls: ['./default-case.component.scss'],
 })

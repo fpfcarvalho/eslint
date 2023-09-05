@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-semi',
+  selector: 'exo-semi',
   templateUrl: './semi.component.html',
   styleUrls: ['./semi.component.scss'],
 })

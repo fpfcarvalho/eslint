@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-const-assign',
+  selector: 'exo-no-const-assign',
   templateUrl: './no-const-assign.component.html',
   styleUrls: ['./no-const-assign.component.scss'],
 })

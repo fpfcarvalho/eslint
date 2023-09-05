@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-unreachable',
+  selector: 'exo-no-unreachable',
   templateUrl: './no-unreachable.component.html',
   styleUrls: ['./no-unreachable.component.scss'],
 })

@@ -6,7 +6,7 @@ import { Component, Directive, OnInit } from '@angular/core';
 class Test {}
 
 @Component({
-  selector: 'app-directive-selector',
+  selector: 'exo-directive-selector',
   templateUrl: './directive-selector.component.html',
   styleUrls: ['./directive-selector.component.scss'],
 })

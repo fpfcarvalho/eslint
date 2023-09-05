@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-prefer-const',
+  selector: 'exo-prefer-const',
   templateUrl: './prefer-const.component.html',
   styleUrls: ['./prefer-const.component.scss'],
 })
