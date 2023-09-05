@@ -9,12 +9,15 @@ export class NoEmptyComponent implements OnInit {
 
   ngOnInit() {
     if (foo) {
+      // something
     }
 
     while (foo) {
+      // something
     }
 
     switch(foo) {
+      // something
     }
   }
 

@@ -8,11 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class EqeqeqComponent implements OnInit {
 
   ngOnInit() {
-    if (x === 42) { }
+    if (x === 42) {
+      // do nothing
+    }
 
-    if ('' === text) { }
+    if ('' === text) {
+      // do nothing
+    }
 
-    if (obj.getStuff() !== undefined) { }
+    if (obj.getStuff() !== undefined) {
+      // do nothing
+    }
   }
 
 }

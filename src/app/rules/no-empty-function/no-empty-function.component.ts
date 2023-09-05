@@ -8,11 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class NoEmptyFunctionComponent implements OnInit {
 
   ngOnInit() {
-    const foo = function() {};
+    const foo = function() {
+      // do nothing
+    };
 
-    const bar = () => {};
+    const bar = () => {
+      // do nothing
+    };
   }
 
-  aaa() {}
+  aaa() {
+    // do nothing
+  }
 
 }

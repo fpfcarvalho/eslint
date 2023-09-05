@@ -13,6 +13,7 @@ class TestDirective {}
 export class DirectiveClassSuffixComponent implements OnInit {
 
   ngOnInit() {
+    // do nothing
   }
 
 }

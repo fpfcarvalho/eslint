@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NoConsoleComponent implements OnInit {
 
   ngOnInit() {
-
+    // do nothing
   }
 
 }

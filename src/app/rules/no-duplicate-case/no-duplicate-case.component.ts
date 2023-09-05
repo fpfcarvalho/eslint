@@ -13,7 +13,7 @@ export class NoDuplicateCaseComponent implements OnInit {
         break;
       case 2:
         break;
-      case 1: // duplicate test expression
+      case 3:
         break;
       default:
         break;
