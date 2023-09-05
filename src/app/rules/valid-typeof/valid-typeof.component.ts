@@ -9,8 +9,8 @@ export class ValidTypeofComponent implements OnInit {
 
   ngOnInit() {
     typeof foo === "strnig";
-    typeof foo == "undefimed";
-    typeof bar != "nunber";
+    typeof foo === "undefimed";
+    typeof bar !== "nunber";
     typeof bar !== "fucntion";
   }
 }
