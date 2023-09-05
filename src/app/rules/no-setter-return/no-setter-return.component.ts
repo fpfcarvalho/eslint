@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class NoSetterReturnComponent {
   set a(value: number) {
     this.val = value * 2;
-    return this.val;
   }
 
   val = 0;

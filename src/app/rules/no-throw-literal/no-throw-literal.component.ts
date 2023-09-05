@@ -8,17 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class NoThrowLiteralComponent implements OnInit {
 
   ngOnInit() {
-    throw "error";
+    throw new Error("error");
 
-    throw 0;
-
-    throw undefined;
-
-    throw null;
+    throw new Error();
 
     const err = new Error();
-    throw "an " + err;
-    throw `${err}`;
+    throw err;
   }
 
 }

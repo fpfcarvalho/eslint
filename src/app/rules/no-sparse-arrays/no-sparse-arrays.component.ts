@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class NoSparseArraysComponent implements OnInit {
 
   ngOnInit() {
-    const items = [,];
-    const colors = [ "red",, "blue" ];
+    const items = [];
+    const colors = [ "red", "blue", ];
   }
 
 }

@@ -8,9 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class NoTemplateCurlyInStringComponent implements OnInit {
 
   ngOnInit() {
-    "My name is ${name}!";
-    'My name is ${name}!';
-    "This is a calculation result: ${3 * 10 * 42}";
+    `My name is ${name}!`;
+    `This is a calculation result: ${3 * 10 * 42}`;
   }
 
 }
