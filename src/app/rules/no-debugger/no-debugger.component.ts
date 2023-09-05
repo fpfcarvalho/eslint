@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class NoDebuggerComponent implements OnInit {
 
   ngOnInit() {
-    debugger;
     const a = 'Exads';
   }
 

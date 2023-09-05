@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class NoConstAssignComponent implements OnInit {
 
   ngOnInit() {
-    const a = 0;
+    let a = 0;
     a = 1;
 
-    const b = 0;
+    let b = 0;
     b += 1;
 
-    const c = 0;
+    let c = 0;
     ++c;
   }
 
