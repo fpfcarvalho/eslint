@@ -9,14 +9,14 @@ export class CurlyComponent implements OnInit {
 
   ngOnInit() {
 
-    if (foo) foo++;
+    if (foo) {foo++;}
 
     while (bar)
-      baz();
+      {baz();}
 
     if (foo) {
       baz();
-    } else qux();
+    } else {qux();}
   }
 
 }
