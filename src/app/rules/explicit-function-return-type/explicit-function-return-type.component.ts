@@ -8,18 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class ExplicitFunctionReturnTypeComponent implements OnInit {
 
   ngOnInit() {
-    function test() {
+    function test(): void {
       return;
     }
 
-    const fn = function () {
+    const fn = function (): number {
       return 1;
     };
 
-    const arrowFn = () => 'test';
+    const arrowFn = (): string => 'test';
   }
 
-  method() {
+  method(): void {
     return;
   }
 

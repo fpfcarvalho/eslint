@@ -28,8 +28,8 @@
         "@angular-eslint/directive-class-suffix": ["error"],
         "@angular-eslint/directive-selector": ["error", { "prefix": "exo", "style": "camelCase", "type": "attribute" }],
         "dot-notation": "error",
-        "eqeqeq": ["error"]
-//        "@typescript-eslint/explicit-function-return-type": "error",
+        "eqeqeq": ["error"],
+        "@typescript-eslint/explicit-function-return-type": "error"
 //        "getter-return": "error",
 //        "indent": ["error", 2, { "SwitchCase": 1 }],
 //        "max-len": ["error", 140],
