@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./no-extra-semi.component.scss'],
 })
 export class NoExtraSemiComponent implements OnInit {
-  field;;
+  field;
 
   ngOnInit() {
-    const x = 5;;
-  };
+    const x = 5;
+  }
 
 }

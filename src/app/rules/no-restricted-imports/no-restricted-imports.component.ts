@@ -8,7 +8,10 @@ import fs from 'fs';
 })
 export class NoRestrictedImportsComponent implements OnInit {
 
+  foo: string | undefined;
+
   ngOnInit() {
+    this.foo = '';
   }
 
 }

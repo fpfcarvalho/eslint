@@ -7,9 +7,14 @@ import { AfterContentChecked, Component, OnInit } from '@angular/core';
 })
 export class NoEmptyLifecycleMethodComponent implements OnInit, AfterContentChecked {
 
+  foo: string | undefined;
+
   ngOnInit() {
+    this.foo = 'text1';
   }
 
-  ngAfterContentChecked() {}
+  ngAfterContentChecked() {
+    this.foo = 'text2';
+  }
 
 }

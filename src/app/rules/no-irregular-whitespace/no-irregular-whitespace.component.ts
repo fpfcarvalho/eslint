@@ -12,7 +12,7 @@ export class NoIrregularWhitespaceComponent {
   }
 
   thing2() {
-    return 'test'; /*<ENSP>*/
+    return 'test';
   }
 
   thing3() {

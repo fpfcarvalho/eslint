@@ -14,7 +14,7 @@ export class NoUnsafeOptionalChainingComponent implements OnInit {
 
     (foo || obj?.foo)();
 
-    for (bar of obj?.foo){;}
+    for (bar of obj?.foo){}
   }
 
 }
