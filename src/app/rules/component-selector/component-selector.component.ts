@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-component-selector',
+  selector: 'exo-component-selector',
   templateUrl: './component-selector.component.html',
   styleUrls: ['./component-selector.component.scss'],
 })

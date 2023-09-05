@@ -20,8 +20,8 @@
         "@typescript-eslint/ban-types": ["error", { "types": { "fdescribe": "Don't focus tests", "fit": "Don't focus tests" }}],
         "camelcase": "error",
         "comma-dangle": ["error", "always-multiline"],
-        "@angular-eslint/component-class-suffix": ["error"]
-//        "@angular-eslint/component-selector": ["error", { "prefix": "exo", "style": "kebab-case", "type": "element" }],
+        "@angular-eslint/component-class-suffix": ["error"],
+        "@angular-eslint/component-selector": ["error", { "prefix": "exo", "style": "kebab-case", "type": "element" }]
 //        "curly": "error",
 //        "default-case": "error",
 //        "default-case-last": "error",
