@@ -10,19 +10,19 @@ export class GetterReturnComponent implements OnInit {
   ngOnInit() {
     p = {
       get name(){
-
+        return '';
       },
     };
 
     Object.defineProperty(p, "age", {
       get: function (){
-
+        return '';
       },
     });
 
     class P {
       get name() {
-
+        return '';
       }
     }
   }
