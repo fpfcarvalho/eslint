@@ -62,6 +62,7 @@
         "no-eval": "warn",
         "no-extra-semi": "error",
         "jasmine/no-focused-tests": 2,
+        "jasmine/no-disabled-tests": 2,
         "no-irregular-whitespace": "error",
         "no-lonely-if": "error",
         "no-multi-spaces": ["error", { "ignoreEOLComments": false }],
