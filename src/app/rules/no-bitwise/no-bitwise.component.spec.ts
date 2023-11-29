@@ -10,7 +10,7 @@ describe('NoBitwiseComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoBitwiseComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoBitwiseComponent);
     component = fixture.componentInstance;

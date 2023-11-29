@@ -10,7 +10,7 @@ describe('NoSparseArraysComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoSparseArraysComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoSparseArraysComponent);
     component = fixture.componentInstance;

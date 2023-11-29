@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-use-lifecycle-interface',
+  selector: 'exo-use-lifecycle-interface',
   templateUrl: './use-lifecycle-interface.component.html',
   styleUrls: ['./use-lifecycle-interface.component.scss'],
 })
-export class UseLifecycleInterfaceComponent implements OnInit {
+export class UseLifecycleInterfaceComponent implements OnInit, OnDestroy, AfterViewChecked, AfterViewInit {
 
   ngOnInit() {}
 

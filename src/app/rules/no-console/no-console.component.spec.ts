@@ -10,7 +10,7 @@ describe('NoConsoleComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoConsoleComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoConsoleComponent);
     component = fixture.componentInstance;

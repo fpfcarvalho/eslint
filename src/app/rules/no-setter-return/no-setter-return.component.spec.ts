@@ -10,7 +10,7 @@ describe('NoSetterReturnComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoSetterReturnComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoSetterReturnComponent);
     component = fixture.componentInstance;

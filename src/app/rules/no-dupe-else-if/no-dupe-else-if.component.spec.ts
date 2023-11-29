@@ -10,7 +10,7 @@ describe('NoDupeElseIfComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoDupeElseIfComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoDupeElseIfComponent);
     component = fixture.componentInstance;

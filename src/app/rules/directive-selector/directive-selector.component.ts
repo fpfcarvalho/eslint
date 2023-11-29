@@ -1,18 +1,15 @@
-import { Component, Directive, OnInit } from '@angular/core';
+import { Component, Directive } from '@angular/core';
 
 @Directive({
-  selector: 'sg-foo-bar',
+  selector: '[exoSgFooBar]',
 })
-class Test {}
+class TestDirective {}
 
 @Component({
-  selector: 'app-directive-selector',
+  selector: 'exo-directive-selector',
   templateUrl: './directive-selector.component.html',
   styleUrls: ['./directive-selector.component.scss'],
 })
-export class DirectiveSelectorComponent implements OnInit {
-
-  ngOnInit() {
-  }
+export class DirectiveSelectorComponent {
 
 }

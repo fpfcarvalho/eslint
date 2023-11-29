@@ -10,7 +10,7 @@ describe('NoSelfAssignComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoSelfAssignComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoSelfAssignComponent);
     component = fixture.componentInstance;

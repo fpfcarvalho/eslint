@@ -10,7 +10,7 @@ describe('NoUnusedExpressionsComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoUnusedExpressionsComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoUnusedExpressionsComponent);
     component = fixture.componentInstance;

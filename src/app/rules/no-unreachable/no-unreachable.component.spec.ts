@@ -10,7 +10,7 @@ describe('NoUnreachableComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoUnreachableComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoUnreachableComponent);
     component = fixture.componentInstance;

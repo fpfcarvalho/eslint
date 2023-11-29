@@ -10,7 +10,7 @@ describe('ValidTypeofComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ValidTypeofComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ValidTypeofComponent);
     component = fixture.componentInstance;

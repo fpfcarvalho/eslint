@@ -10,7 +10,7 @@ describe('NoUnsafeOptionalChainingComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoUnsafeOptionalChainingComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoUnsafeOptionalChainingComponent);
     component = fixture.componentInstance;

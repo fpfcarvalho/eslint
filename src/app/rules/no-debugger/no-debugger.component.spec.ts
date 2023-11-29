@@ -10,7 +10,7 @@ describe('NoDebuggerComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoDebuggerComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoDebuggerComponent);
     component = fixture.componentInstance;

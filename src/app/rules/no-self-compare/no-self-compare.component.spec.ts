@@ -10,7 +10,7 @@ describe('NoSelfCompareComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoSelfCompareComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoSelfCompareComponent);
     component = fixture.componentInstance;

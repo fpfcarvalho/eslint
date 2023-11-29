@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-self-assign',
+  selector: 'exo-no-self-assign',
   templateUrl: './no-self-assign.component.html',
   styleUrls: ['./no-self-assign.component.scss'],
 })
 export class NoSelfAssignComponent implements OnInit {
 
   ngOnInit() {
-    foo = foo;
+    foo = bar;
 
-    [ a, b ] = [ a, b ];
+    [ a, b ] = [ b, a ];
 
-    [ a, ...b ] = [ x, ...b ];
+    [ a, ...b ] = [ x, ...c ];
   }
 
 }

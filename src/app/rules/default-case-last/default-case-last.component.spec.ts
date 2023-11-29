@@ -10,7 +10,7 @@ describe('DefaultCaseLastComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [DefaultCaseLastComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(DefaultCaseLastComponent);
     component = fixture.componentInstance;

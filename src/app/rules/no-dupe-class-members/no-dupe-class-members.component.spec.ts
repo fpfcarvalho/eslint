@@ -10,7 +10,7 @@ describe('NoDupeClassMembersComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoDupeClassMembersComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoDupeClassMembersComponent);
     component = fixture.componentInstance;

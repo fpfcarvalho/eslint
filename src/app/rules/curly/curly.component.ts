@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-curly',
+  selector: 'exo-curly',
   templateUrl: './curly.component.html',
   styleUrls: ['./curly.component.scss'],
 })
@@ -9,14 +9,14 @@ export class CurlyComponent implements OnInit {
 
   ngOnInit() {
 
-    if (foo) foo++;
+    if (foo) {foo++;}
 
     while (bar)
-      baz();
+    {baz();}
 
     if (foo) {
       baz();
-    } else qux();
+    } else {qux();}
   }
 
 }

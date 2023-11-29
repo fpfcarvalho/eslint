@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-array-bracket-spacing',
+  selector: 'exo-array-bracket-spacing',
   templateUrl: './array-bracket-spacing.component.html',
   styleUrls: ['./array-bracket-spacing.component.scss'],
 })

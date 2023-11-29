@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-default-case-last',
+  selector: 'exo-default-case-last',
   templateUrl: './default-case-last.component.html',
   styleUrls: ['./default-case-last.component.scss'],
 })
@@ -12,20 +12,20 @@ export class DefaultCaseLastComponent implements OnInit {
       case 1:
         bar();
         break;
-      default:
-        baz();
-        break;
       case 2:
         quux();
+        break;
+      default:
+        baz();
         break;
     }
 
     switch (foo) {
-      case "x":
+      case 'x':
         bar();
         break;
+      case 'y':
       default:
-      case "y":
         baz();
         break;
     }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-indent',
+  selector: 'exo-indent',
   templateUrl: './indent.component.html',
   styleUrls: ['./indent.component.scss'],
 })
@@ -9,17 +9,17 @@ export class IndentComponent implements OnInit {
 
   ngOnInit() {
     switch(a){
-    case "a":
+      case 'a':
         break;
-    case "b":
+      case 'b':
         break;
     }
 
     if (a) {
-        b=c;
-        function foo(d) {
-            e=f;
-        }
+      b=c;
+      function foo(d) {
+        e=f;
+      }
     }
   }
 

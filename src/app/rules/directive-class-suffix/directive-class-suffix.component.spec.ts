@@ -10,7 +10,7 @@ describe('DirectiveClassSuffixComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [DirectiveClassSuffixComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(DirectiveClassSuffixComponent);
     component = fixture.componentInstance;

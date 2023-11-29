@@ -1,18 +1,24 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-empty-function',
+  selector: 'exo-no-empty-function',
   templateUrl: './no-empty-function.component.html',
   styleUrls: ['./no-empty-function.component.scss'],
 })
 export class NoEmptyFunctionComponent implements OnInit {
 
   ngOnInit() {
-    const foo = function() {};
+    const foo = function() {
+      // do nothing
+    };
 
-    const bar = () => {};
+    const bar = () => {
+      // do nothing
+    };
   }
 
-  aaa() {}
+  aaa() {
+    // do nothing
+  }
 
 }

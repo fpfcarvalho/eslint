@@ -10,7 +10,7 @@ describe('NoThrowLiteralComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoThrowLiteralComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoThrowLiteralComponent);
     component = fixture.componentInstance;

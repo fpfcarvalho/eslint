@@ -10,7 +10,7 @@ describe('ObjectCurlySpacingComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ObjectCurlySpacingComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ObjectCurlySpacingComponent);
     component = fixture.componentInstance;

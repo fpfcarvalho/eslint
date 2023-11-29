@@ -10,7 +10,7 @@ describe('NoEvalComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoEvalComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoEvalComponent);
     component = fixture.componentInstance;

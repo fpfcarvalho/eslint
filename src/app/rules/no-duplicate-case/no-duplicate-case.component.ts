@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-no-duplicate-case',
+  selector: 'exo-no-duplicate-case',
   templateUrl: './no-duplicate-case.component.html',
   styleUrls: ['./no-duplicate-case.component.scss'],
 })
@@ -13,7 +13,7 @@ export class NoDuplicateCaseComponent implements OnInit {
         break;
       case 2:
         break;
-      case 1: // duplicate test expression
+      case 3:
         break;
       default:
         break;

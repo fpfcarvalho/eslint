@@ -10,7 +10,7 @@ describe('NoEmptyLifecycleMethodComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoEmptyLifecycleMethodComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoEmptyLifecycleMethodComponent);
     component = fixture.componentInstance;

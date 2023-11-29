@@ -10,7 +10,7 @@ describe('ComponentClassSuffixComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ComponentClassSuffixComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ComponentClassSuffixComponent);
     component = fixture.componentInstance;

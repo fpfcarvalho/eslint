@@ -10,7 +10,7 @@ describe('CurlyComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [CurlyComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(CurlyComponent);
     component = fixture.componentInstance;

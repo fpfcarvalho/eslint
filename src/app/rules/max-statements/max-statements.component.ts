@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-max-statements',
+  selector: 'exo-max-statements',
   templateUrl: './max-statements.component.html',
   styleUrls: ['./max-statements.component.scss'],
 })
@@ -16,10 +16,6 @@ export class MaxStatementsComponent implements OnInit {
     const xpto8 = 1;
     const xpto9 = 1;
     const xpto10 = 1;
-    const xpto11 = 1;
-    const xpto12 = 1;
-    const xpto13 = 1;
-    const xpto14 = 1;
   }
 
 }

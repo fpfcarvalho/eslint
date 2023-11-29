@@ -10,7 +10,7 @@ describe('IndentComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [IndentComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(IndentComponent);
     component = fixture.componentInstance;

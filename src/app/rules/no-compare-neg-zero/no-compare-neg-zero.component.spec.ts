@@ -10,7 +10,7 @@ describe('NoCompareNegZeroComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoCompareNegZeroComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoCompareNegZeroComponent);
     component = fixture.componentInstance;

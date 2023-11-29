@@ -10,7 +10,7 @@ describe('NoUnreachableLoopComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoUnreachableLoopComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoUnreachableLoopComponent);
     component = fixture.componentInstance;

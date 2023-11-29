@@ -1,23 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-camelcase',
+  selector: 'exo-camelcase',
   templateUrl: './camelcase.component.html',
   styleUrls: ['./camelcase.component.scss'],
 })
 export class CamelcaseComponent implements OnInit {
 
   ngOnInit() {
-    const my_favorite_color = '#112C85';
+    const myFavoriteColor = '#112C85';
     const obj = {
-      my_pref: 1,
+      myPref: 1,
     };
-    obj.do_something = function() {
+    obj.doSomething = function() {
       // ...
     };
-    const { category_id = 1 } = query;
-    const { foo: no_camelcased } = bar;
-    const { foo: bar_baz = 1 } = quz;
+    const { categoryId = 1 } = query;
+    const { foo: noCamelcased } = bar;
+    const { foo: barBaz = 1 } = quz;
   }
 
 }

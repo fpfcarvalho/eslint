@@ -1,20 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-semi',
+  selector: 'exo-semi',
   templateUrl: './semi.component.html',
   styleUrls: ['./semi.component.scss'],
 })
 export class SemiComponent implements OnInit {
 
-  name = "ESLint"
+  name = 'ESLint';
 
   ngOnInit() {
     object.method = function() {
       // ...
-    }
+    };
 
-    const field = ''
+    const field = '';
   }
 
 }

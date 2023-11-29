@@ -10,7 +10,7 @@ describe('ArrayBracketSpacingComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ArrayBracketSpacingComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ArrayBracketSpacingComponent);
     component = fixture.componentInstance;

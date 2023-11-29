@@ -10,7 +10,7 @@ describe('NoTrailingSpacesComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoTrailingSpacesComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoTrailingSpacesComponent);
     component = fixture.componentInstance;

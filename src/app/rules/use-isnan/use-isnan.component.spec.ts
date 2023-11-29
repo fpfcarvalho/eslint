@@ -10,7 +10,7 @@ describe('UseIsnanComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [UseIsnanComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(UseIsnanComponent);
     component = fixture.componentInstance;

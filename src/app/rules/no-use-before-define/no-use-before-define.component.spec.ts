@@ -10,7 +10,7 @@ describe('NoUseBeforeDefineComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoUseBeforeDefineComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoUseBeforeDefineComponent);
     component = fixture.componentInstance;

@@ -10,7 +10,7 @@ describe('UsePipeTransformInterfaceComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [UsePipeTransformInterfaceComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(UsePipeTransformInterfaceComponent);
     component = fixture.componentInstance;

@@ -10,7 +10,7 @@ describe('NoConstAssignComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoConstAssignComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoConstAssignComponent);
     component = fixture.componentInstance;

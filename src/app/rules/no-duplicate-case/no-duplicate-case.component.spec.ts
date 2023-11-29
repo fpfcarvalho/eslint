@@ -10,7 +10,7 @@ describe('NoDuplicateCaseComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [NoDuplicateCaseComponent],
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(NoDuplicateCaseComponent);
     component = fixture.componentInstance;

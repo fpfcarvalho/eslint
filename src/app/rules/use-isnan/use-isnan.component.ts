@@ -1,29 +1,30 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-use-isnan',
+  selector: 'exo-use-isnan',
   templateUrl: './use-isnan.component.html',
   styleUrls: ['./use-isnan.component.scss'],
 })
 export class UseIsnanComponent implements OnInit {
 
   ngOnInit() {
-    if (foo == NaN) {
+    if (isNan(foo)) {
       // ...
     }
 
-    if (foo != NaN) {
+    if (!isNaN(foo)) {
       // ...
     }
 
-    switch (foo) {
-      case NaN:
-        bar();
-        break;
-      case 1:
-        baz();
-        break;
-      // ...
+    if (Number.isNaN(foo)) {
+      bar();
+    } else {
+      switch (foo) {
+        case 1:
+          baz();
+          break;
+        // ...
+      }
     }
   }
 
